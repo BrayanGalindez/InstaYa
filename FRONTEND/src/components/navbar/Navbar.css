@@ -1,0 +1,15 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav .nav-options
+{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+}
+.navbar{
+    background-color: #3b8197;
+}

@@ -1,0 +1,72 @@
+.form-control::placeholder{
+	font-weight: bold;
+	opacity: 0.5;
+	color: #2e7085;
+	font-size: 12px;
+}
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-weight: bold;
+	opacity: 0.5;
+	color: #01a5a0;
+	font-size: 12px; /* Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	font-weight: bold;
+	opacity: 0.5;
+	color: #01a5a0;
+	font-size: 12px;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	font-weight: bold;
+	opacity: 0.5;
+	color: #01a5a0;
+	font-size: 12px;
+}
+#main-container {
+	place-items: center center;
+}
+#reg-in-order {
+	align-items: center;
+	justify-content: center;
+	max-width: 500px;
+}
+#form-div {
+	align-items: center;
+	justify-content: center;
+	max-width: 450px;
+}
+.form-titulo {
+	color: #3c9491;
+	text-decoration-color: #70ccc9;
+}
+#form-container {
+	box-sizing: border-box;
+	padding: 0.2rem;
+	border: 1px solid #3c9491;
+	box-shadow: 5px 5px 20px 0px #3c9491;
+	border-radius: 10px;
+}
+
+#lineaVertical {
+	border-left: 2px solid #3c9491;
+
+}
+.btn-create {
+    background: linear-gradient(180deg, #7aceda 0%, #3c9491 100%);
+    transition: all .3s;
+    color: rgb(252, 248, 248);
+    font-weight: bold;
+	border: none;
+}
+
+.btn-create:hover {
+    background: linear-gradient(180deg, #b9fdff 0%, #6dcfcc 100%);
+    transition: all .3s;
+    color: #185250;
+    font-weight: bold;
+}

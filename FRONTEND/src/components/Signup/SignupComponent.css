@@ -1,0 +1,24 @@
+::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: #70ccc9;
+    font-size: 12px;
+}
+#main-container{
+    place-items: center center;
+    max-width: 600px;
+}
+#reg-in-order{
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+}
+#form-div{
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+}
+.form-titulo{
+    text-decoration:  #3c9491;
+    text-decoration-color: #70ccc9;
+}

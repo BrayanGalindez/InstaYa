@@ -1,0 +1,39 @@
+.image
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image .img
+{
+    width: 100%;
+    height: 200px;
+}
+
+.form-container
+{
+    box-sizing: border-box;
+    padding: .2rem;
+    border: 1px solid #3c9491;
+    box-shadow: 5px 5px 20px 0px #3c9491;
+    border-radius: 10px;
+}
+
+.form-edit-send
+{
+    margin: 2rem;
+}
+
+.form-container .btn-save
+{
+    border: none;
+    background-color: #3c9491;
+    color: #252525;
+}
+.form-container .btn-back
+{
+    background-color: #252525;
+    color: #EFEFEF;
+}
